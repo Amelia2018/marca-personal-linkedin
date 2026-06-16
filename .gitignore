@@ -1,0 +1,38 @@
+# Entornos virtuales locales
+venv/
+ENV/
+env/
+.venv/
+bin/
+include/
+lib/
+share/
+
+# Credenciales y configuración local del Cockpit
+.env
+.env.development
+.env.production
+.env.local
+.env.staging
+
+# Excluir la aplicación Cockpit completa (Base de código privada de automatización y métricas)
+app.py
+model_gateway.py
+linkedin_publisher.py
+local_mcp_server.py
+run.sh
+dashboard/
+scraper/
+.agent_rules.md
+linkedin_drafts.md
+
+# Archivos de caché e IDEs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.vscode/
+.idea/
+.pytest_cache/
+.mypy_cache/
